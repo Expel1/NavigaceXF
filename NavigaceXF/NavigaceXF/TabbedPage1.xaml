@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NavigaceXF.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1" >
+        <StackLayout>
+            <Label Text="content page 1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="BackToPage1" Text="Back" Clicked="BackToPage1_Clicked"  
+                    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Tab 2">
+        <StackLayout>
+            <Label Text="content page 2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="BackToPage2" Clicked="BackToPage2_Clicked_1" Text="Back" 
+                    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Tab 3">
+        <StackLayout>
+            <Label Text="content page 3" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="BackToPage3" Text="Back" Clicked="BackToPage3_Clicked_2"
+                    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
